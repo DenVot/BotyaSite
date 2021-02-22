@@ -1,0 +1,125 @@
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  line-height: 1.5em;
+}
+a {
+  color: white;
+}
+
+a :visited {
+  color: white;
+}
+
+.commands .command h1 {
+  width: 30%;
+  padding: 0.5%;
+  border-bottom: 2px solid #5c5c5c;
+}
+
+code {
+  background-color: #252525;
+  border-radius: 0.5em;
+  padding: 0.75%;
+}
+
+.introduction {
+  background-color: #202020;
+  padding: 2%;
+  border-radius: 4em;
+}
+
+.command-message {
+  width: 20%;
+  background-color: #303030;
+  padding: 1%;
+  border-radius: 2em;
+  margin-bottom: 10px;
+}
+
+.command-message .header p {
+  color: orange;
+  font-size: 20px;
+}
+
+.command-context {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.botya-message .header p {
+  color: #127ca4;
+}
+
+.botya-message .header ::after {
+  content: "БОТ";
+  color: white;
+  background-color: #7289da;
+  padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 0.25em;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.command-with-emoji {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.emoji {
+  width: fit-content;
+  display: flex;
+  background-color: #252525;
+  border-radius: 0.5em;
+  padding: 0.25em;
+}
+
+.embed {
+  width: 80%;
+  border-radius: 0.5em;
+  padding: 5%;
+  padding-left: 4%;
+  background-color: #2f3136;
+  border-left: 8px solid #127ca4;
+}
+
+.emojies {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.emojies .emoji {
+  margin-left: 4px;
+}
+
+.noscript-wrapper {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.noscript-wrapper-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border-radius: 1.5em;
+  border: 2px solid #f31818;
+  background-color: rgba(255, 0, 0, 0.4);
+}

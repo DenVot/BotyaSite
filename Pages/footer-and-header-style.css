@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #252525;
+}
+
+footer {
+  background-color: #252525;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+button {
+  cursor: pointer;
+}
+
+#scanner {
+  position: relative;
+  animation: bot-scanner-animation 2s alternate ease-in-out infinite;
+}
+
+#bot-scanner {
+  position: relative;
+  animation: bot-footer-animation 2s alternate ease-in-out infinite;
+}
+
+.nav-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-panel li {
+  list-style-type: none;
+  margin-left: 5%;
+}
+
+.nav-panel a {
+  transition: color 0.3s;
+  color: #757575;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.nav-panel a :visited {
+  color: inherit;
+}
+
+.nav-panel li :hover {
+  transition: color 0.3s;
+  color: white;
+}
+
+.icon {
+  margin-left: auto;
+}
+
+.formal {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-to-server-button {
+  width: max-content;
+  height: 50%;
+  margin-top: auto;
+  height: fit-content;
+  background-color: #127ca4;
+  outline: none;
+  border: none;
+  border-radius: 2em;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 5%;
+}
+
+.add-to-server-button ::before {
+  width: 10%;
+  height: 30%;
+}
+
+.bot-footer-svg {
+  margin-top: auto;
+}
+
+.plus-svg {
+  margin-left: 1.5em;
+}
+
+.title-with-button-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-footer-container {
+  width: 10%;
+  height: 10%;
+}
+
+.botya-span {
+  width: fit-content;
+  height: fit-content;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  border: 0.15em solid white;
+}
+
+.copyright {
+  margin-top: 7px;
+  color: #757575;
+  font-style: italic;
+}
+
+@keyframes bot-scanner-animation {
+  from {
+    x: 10;
+  }
+  to {
+    x: 30;
+  }
+}
+
+@keyframes bot-footer-animation {
+  from {
+    x: 70;
+  }
+  to {
+    x: 150;
+  }
+}
