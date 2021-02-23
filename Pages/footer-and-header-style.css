@@ -1,3 +1,22 @@
+@media only screen and (max-device-width: 1000px) {
+  .footer-svg {
+    display: none;
+  }
+
+  footer {
+    flex-direction: column !important;
+    justify-content: center;
+  }
+
+  .button-footer-container {
+    margin-top: 20px;
+  }
+
+  .normal-header {
+    justify-content: space-between !important;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -7,9 +26,31 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 1%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   background-color: #252525;
+}
+
+#nav-wrapper {
+  height: fit-content;
+}
+
+header a {
+  font-size: 50px;
+  color: #757575;
+  text-decoration: none;
+}
+
+header a :visited {
+  font-size: 50px;
+  color: #757575;
+  text-decoration: none;
+}
+
+.normal-header {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 footer {
@@ -87,7 +128,7 @@ button {
   justify-content: space-between;
   align-items: center;
   font-size: 1.5em;
-  padding: 5%;
+  padding: 10%;
 }
 
 .add-to-server-button ::before {
@@ -110,8 +151,8 @@ button {
 }
 
 .button-footer-container {
-  width: 10%;
-  height: 10%;
+  width: fit-content;
+  height: fit-content;
 }
 
 .botya-span {

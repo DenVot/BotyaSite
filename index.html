@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Pages/footer-and-header-style.css">
     <link rel="shortcut icon" href="Images/BotAvatar.ico" type="image/x-icon">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta data-n-head="ssr" data-hid="theme-color" name="theme-color" content="#127ca4">
     <meta data-n-head="ssr" data-hid="og:type" name="og:type" content="website">
     <meta data-n-head="ssr" data-hid="og:title" name="og:title" content="Ботя">
@@ -17,18 +18,22 @@
 </head>
 <body>
     <header>
-        <div class="botya-logo">
-            <a href="https://discord.com/oauth2/authorize?client_id=749991391639109673&scope=bot&permissions=1573583991"><img src="Images/BotLogotype.svg" alt="LOGO"></a> 
+        <div class="normal-header">
+            <div class="botya-logo">
+                <a href="https://discord.com/oauth2/authorize?client_id=749991391639109673&scope=bot&permissions=1573583991"><img src="Images/BotLogotype.svg" alt="LOGO"></a> 
+            </div>
+            <nav id="nav-wrapper">
+                <ul class="nav-panel">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="Pages/CommandsPage/index.html">Команды</a></li>
+                    <li><a href="Pages/FilesPage/index.html">Файлы</a></li>
+                    <li><a href="https://discord.gg/p6R4yk7uqK">Сервер</a></li>
+                    <li><a href="https://discord.com/oauth2/authorize?client_id=749991391639109673&scope=bot&permissions=1573583991">Пригласить</a></li>
+                </ul>
+            </nav>        
         </div>
-        <nav>
-            <ul class="nav-panel">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="Pages/CommandsPage/index.html">Команды</a></li>
-                <li><a href="Pages/FilesPage/index.html">Файлы</a></li>
-                <li><a href="https://discord.gg/p6R4yk7uqK">Сервер</a></li>
-                <li><a href="https://discord.com/oauth2/authorize?client_id=749991391639109673&scope=bot&permissions=1573583991">Пригласить</a></li>
-            </ul>
-        </nav>        
+        <div class="phone-menu">            
+        </div>
     </header>
     <main>
         <noscript>
@@ -105,7 +110,7 @@
             <div class="advantage">
                 <section class="advantage-inner">
                     <div class="advantage-text">
-                        <h1>Администрирование сервера на высшем уровне</h1>
+                        <h1>Администрация сервера</h1>
                         <article>
                             Бот автоматизирует большую часть процессов, которые разгрузят администратора сервера.<br>Около 70 команд в Вашем распоряжении.
                         </article>
@@ -143,7 +148,7 @@
                         <h1>Полная катомизация</h1>
                         <article>Большинство вещей, которые делает бот можно переделать под себя. Например, можно отредактировать приветственные сообщения, а можно их отключить вовсе.</article>
                     </div>
-                    <img class="adv-image" class="edit-hello-message-image" style="border-radius: 1em;" src="../../Images/EditHelloMessage.png" alt="Кастомизация" width="500">
+                    <img class="adv-image" class="edit-hello-message-image" style="border-radius: 1em;" src="../../Images/EditHelloMessage.png" alt="Кастомизация" width="300">
                 </section>
             </div>
             <div class="advantage">
@@ -168,7 +173,9 @@
     </main>    
     <footer>
         <div class="formal">
-            <span class="botya-span">Ботя</span>
+            <div class="botya-logo">
+                <a href="https://discord.com/oauth2/authorize?client_id=749991391639109673&scope=bot&permissions=1573583991"><img src="Images/BotLogotype.svg" alt="LOGO"></a> 
+            </div>
             <span class="copyright">© Copyright 2021.</span>
             <span><a class="copyright" href="https://opensource.org/licenses/MIT">License</a></span>
         </div>
@@ -181,17 +188,19 @@
                 </svg>
             </button>
         </div>
-        <svg class="bot-footer-svg" viewBox="0 0 250 100" height="110" width="250" xmlns="http://www.w3.org/2000/svg">
-            <g id="bot-body">
-                <rect width="200" height="100" x="25" y="0" fill="#127ca4" />
-                <rect x="50" y="35" width="150" height="30" fill="black" />
-                <rect id="bot-scanner" x="60" y="35" width="20" height="30" fill="#00b62f" />
-                <rect id="bot-scanner" x="60" y="35" width="8" height="30" fill="#004a13" />
-            </g>
-            <rect x="0" y="100" width="250" height="10" fill="#424242" />
-        </svg>        
+        <div class="footer-svg">
+            <svg class="bot-footer-svg" viewBox="0 0 250 100" height="110" width="250" xmlns="http://www.w3.org/2000/svg">
+                <g id="bot-body">
+                    <rect width="200" height="100" x="25" y="0" fill="#127ca4" />
+                    <rect x="50" y="35" width="150" height="30" fill="black" />
+                    <rect id="bot-scanner" x="60" y="35" width="20" height="30" fill="#00b62f" />
+                    <rect id="bot-scanner" x="60" y="35" width="8" height="30" fill="#004a13" />
+                </g>
+                <rect x="0" y="100" width="250" height="10" fill="#424242" />
+            </svg>        
+        </div>
     </footer>
-    <script src="Scripts/AdaptationForMainPageScript.js"></script>
+    <script src="Scripts/DropMenuScript.js"></script>
     <script src="Scripts/MainPageScript.js"></script>
     <script src="Scripts/AddToServerButtonScript.js"></script>
     <script src="Scripts/HeaderAndFooterScript.js"></script>

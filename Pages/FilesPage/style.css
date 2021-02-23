@@ -1,3 +1,6 @@
+@media only screen and (max-width: 1000px) {
+}
+
 :root {
   --width-of-embed: 8px;
 }
@@ -7,9 +10,10 @@ html {
 }
 
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
 }
 
 main {

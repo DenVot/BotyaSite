@@ -5,9 +5,6 @@ let buttonsInCombo = document.querySelectorAll('.button-in-combo');
 let timeText = document.getElementById('message-time');
 let now = new Date();
 
-console.log(window.outerHeight);
-console.log(introWithHero.clientHeight);
-
 wavesSvg.style.height = (window.outerHeight > introWithHero.clientHeight + header.clientHeight ? window.outerHeight - introWithHero.clientHeight - header.clientHeight :  introWithHero.clientHeight - window.outerHeight - header.clientHeight);
 
 timeText.textContent = now.getHours() + ':' + (now.getMinutes() < 10 ? '0' + now.getMinutes() : now.getMinutes());
