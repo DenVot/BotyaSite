@@ -7,9 +7,25 @@
     flex-direction: column !important;
   }
 
-  .advantage-text,
-  h1 {
-    max-width: 100%;
+  .advantage-text h1 {
+    font-size: 30px;
+  }
+
+  .advantage-text {
+    line-height: 30px;
+  }
+
+  img {
+    max-width: 80%;
+  }
+
+  .adv-image {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .advantage-inner {
+    margin-top: 15px !important;
   }
 }
 
@@ -61,10 +77,6 @@ h1 {
   flex-direction: column;
 }
 
-.visor {
-  animation: visor-animation 2s alternate infinite;
-}
-
 .buttons-combo {
   display: flex;
   justify-content: center;
@@ -111,22 +123,4 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-@keyframes visor-animation {
-  from {
-    x: 250;
-  }
-  50% {
-    x: 215;
-  }
-  75% {
-    x: 250;
-    y: 12;
-    height: 20px;
-  }
-  to {
-    y: 20;
-    height: 0px;
-  }
 }

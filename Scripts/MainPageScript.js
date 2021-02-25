@@ -2,12 +2,6 @@ let wavesSvg = document.getElementById('wave');
 let introWithHero = document.querySelector('.wave-intro');
 let header = document.getElementsByTagName('header');
 let buttonsInCombo = document.querySelectorAll('.button-in-combo');
-let timeText = document.getElementById('message-time');
-let now = new Date();
-
-wavesSvg.style.height = (window.outerHeight > introWithHero.clientHeight + header.clientHeight ? window.outerHeight - introWithHero.clientHeight - header.clientHeight :  introWithHero.clientHeight - window.outerHeight - header.clientHeight);
-
-timeText.textContent = now.getHours() + ':' + (now.getMinutes() < 10 ? '0' + now.getMinutes() : now.getMinutes());
 
 for(let button of buttonsInCombo) {
     let url = button.dataset.url;
