@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 500 500">
+    <style>
+        .channel-text {
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+    <rect class="channel-name" rx="30" ry="30" width="500" height="100" fill="#23272A" />
+    <text class="channel-name channel-text" fill="white" x="30" y="60">
+        Комната Users
+    </text>
+    <image xlink:href="data:BaldiTalk.gif" x="20" y="30" width="80" height="80" />
+    <rect class="channel-name" rx="30" ry="30" width="500" height="100" y="120" fill="#2C2F33" />
+    <text class="channel-name channel-text" fill="white" x="100" y="180">
+        Балди
+    </text>
+    <rect class="channel-name" rx="30" ry="30" width="500" height="100" y="240" fill="#2C2F33" />
+    <text class="channel-name channel-text" fill="white" x="100" y="300">
+        Фредди
+    </text>
+    <rect class="channel-name" rx="30" ry="30" width="500" height="100" y="360" fill="#2C2F33" />
+    <text class="channel-name channel-text" fill="white" x="100" y="420">
+        Джин
+    </text>
+</svg>

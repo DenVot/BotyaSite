@@ -75,6 +75,9 @@ button {
 #scanner {
   position: relative;
   animation: bot-scanner-animation 2s alternate ease-in-out infinite;
+  -moz-animation: bot-scanner-animation 2s alternate ease-in-out infinite;
+  -o-animation: bot-scanner-animation 2s alternate ease-in-out infinite;
+  -webkit-animation: bot-scanner-animation 2s alternate ease-in-out infinite;
 }
 
 #bot-scanner {

@@ -124,3 +124,32 @@ h1 {
   flex-direction: row;
   align-items: center;
 }
+
+.hummer-svg {
+  transform-origin: right;
+  animation: rotate-anim 1s infinite alternate ease-in-out;
+}
+
+.hello-emoji {
+  font-size: 7em;
+  transform-origin: center;
+  animation: rotate-anim 3s infinite alternate ease-in-out;
+}
+
+@keyframes rotate-anim {
+  from {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(30deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotateZ(30deg);
+  }
+}
