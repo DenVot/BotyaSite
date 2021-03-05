@@ -19,14 +19,22 @@
     max-width: 80%;
   }
 
-  .adv-image {
-    margin-top: 20px;
-    margin-bottom: 0px;
+  .advantage-example {
+    margin-top: 120px;
+    margin-bottom: 120px;
   }
 
   .advantage-inner {
     margin-top: 15px !important;
   }
+
+  .emojies {
+    display: none !important;
+  }
+}
+
+main {
+  padding: 0 !important;
 }
 
 body {
@@ -42,6 +50,11 @@ h1 {
 
 .advantage-text h1 {
   margin-bottom: 20px;
+}
+
+.advantage-example {
+  display: flex;
+  text-align: center;
 }
 
 .advantage-inner {
@@ -132,8 +145,34 @@ h1 {
 
 .hello-emoji {
   font-size: 7em;
-  transform-origin: center;
-  animation: rotate-anim 3s infinite alternate ease-in-out;
+}
+
+.custom-button-preview {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.command-message {
+  background-color: transparent !important;
+}
+
+#toggle-button-wrapper {
+  width: 200px;
+  height: 50px;
+  border: 10px solid #252525;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+}
+
+#toggle-button-selector {
+  height: 48px;
+  width: 48px;
+  transform: translateX(-10px);
+  background-color: #e84118;
+  border: 10px solid #252525;
+  border-radius: 2em;
 }
 
 @keyframes rotate-anim {

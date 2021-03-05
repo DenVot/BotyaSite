@@ -2,13 +2,13 @@
     <style>
         text {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 2.75em;
+            font-size: 2.5em;
         }
     </style>
     <g id="label">
         <rect width="160" height="50" fill="#7289DA" rx="10" />
-        <path d="M 10 25 L 30 40 M 30 40 L 50 10" stroke-linecap="round" stroke="white" stroke-width="5" />
-        <text fill="white" x="60" y="41">
+        <path d="M 20 25 L 30 35 M 30 35 L 45 15" stroke-linecap="round" stroke="white" stroke-width="5" />
+        <text fill="white" x="60" y="39">
             БОТ
         </text>
     </g>

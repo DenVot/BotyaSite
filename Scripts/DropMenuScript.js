@@ -14,8 +14,7 @@ if(width <= 1000) {
     menuList.style.listStyleType = 'none';     
     menuList.style.textAlign = 'center';
     menuList.innerHTML += '<li><a href="/index.html">Главная</a></li>';
-    menuList.innerHTML += '<li><a href="/Pages/CommandsPage/index.html">Команды</a></li>';
-    menuList.innerHTML += '<li><a href="/Pages/FilesPage/index.html">Файлы</a></li>';
+    menuList.innerHTML += '<li><a href="/Pages/CommandsPage/index.html">Команды</a></li>';    
     menuList.innerHTML += '<li><a href="https://discord.gg/p6R4yk7uqK">Сервер</a></li>';
     menuList.innerHTML += '<li><a href="https://discord.com/oauth2/authorize?client_id=749991391639109673&scope=bot&permissions=1573583991">Пригласить</a></li>';
     menu.appendChild(menuList);
