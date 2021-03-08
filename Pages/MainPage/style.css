@@ -154,6 +154,7 @@ h1 {
 }
 
 .command-message {
+  flex-direction: column !important;
   background-color: transparent !important;
 }
 
