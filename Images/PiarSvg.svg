@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="20 -20 150 150">
+    <style>
+        .light-plus-part-vert {
+            animation: for-light-vert 3s alternate infinite ease-in-out;
+        }
+
+        .light-plus-part-hor {
+            animation: for-light-hor 3s alternate infinite ease-in-out;
+        }
+
+        .dark-plus-part-vert {
+            animation: for-dark-vert 3s alternate infinite ease-in-out;
+        }
+
+        .dark-plus-part-hor {
+            animation: for-dark-hor 3s alternate infinite ease-in-out;
+        }
+
+        @keyframes for-light-vert {
+            0% {
+                y: 5;
+            }
+
+            100% {
+                y: 10;
+            }
+        }
+
+        @keyframes for-light-hor {
+            0% {
+                y: 38;
+            }
+
+            100% {
+                y: 43;
+            }
+        }
+
+        @keyframes for-dark-vert {
+            0% {
+                y: 28;
+            }
+
+            100% {
+                y: 33;
+            }
+        }
+
+        @keyframes for-dark-hor {
+            0% {
+                y: 63;
+            }
+
+            100% {
+                y: 68;
+            }
+        }
+    </style>
+    <g fill="#0f546e">
+        <rect class="dark-plus-part-vert" x="80" y="25" width="10" height="80" />
+        <rect class="dark-plus-part-hor" width="80" height="10" x="45" y="60" />
+    </g>
+    <g fill="#127ca4">
+        <rect class="light-plus-part-vert" x="100" y="2" width="10" height="80" />
+        <rect class="light-plus-part-hor" width="80" height="10" x="65" y="35" />
+    </g>
+</svg>
