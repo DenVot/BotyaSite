@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1080px) {
   .about {
-    flex-direction: column !important;  
+    flex-direction: column !important;
   }
 }
 
@@ -16,7 +16,8 @@ ol {
   margin: 0;
 }
 
-main a, main a:visited {
+main a,
+main a:visited {
   color: wheat;
 }
 
@@ -25,4 +26,32 @@ main a, main a:visited {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.terms ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+.terms li:before {
+  counter-increment: li;
+  content: counters(li, ".") ". ";
+}
+
+.warn-message {
+  max-width: 50%;
+  width: fit-content;
+  padding: 1%;
+  background-color: #303030;
+  border-radius: 10px;
+  border-left: 10px solid #127ca4;
+}
+
+.body p {
+  line-height: 2em;
+}
+
+.discord-link {
+  color: #00b0f4 !important;
+  text-decoration: none !important;
 }
