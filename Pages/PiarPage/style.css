@@ -55,3 +55,13 @@ main a:visited {
   color: #00b0f4 !important;
   text-decoration: none !important;
 }
+
+.white-discord-link {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.author :hover {
+  text-decoration: underline;
+  width: fit-content;
+}
